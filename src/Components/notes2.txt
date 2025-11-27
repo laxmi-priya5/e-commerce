@@ -1,0 +1,2 @@
+1-map on images  
+2-filter property to extract only image that has correct url wwhen map on images
