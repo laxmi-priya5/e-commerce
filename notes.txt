@@ -370,3 +370,19 @@ Options:
 ### 5️⃣ Wishlist
 
 Reply with **1, 2, 3, 4, or 5**.
+
+......................................................................................
+
+
+
+header should br constant 
+-remove one item of same id 
+
+
+
+
+
+
+
+
+

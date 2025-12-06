@@ -63,3 +63,20 @@ notes on useparams(dynamic routing)
 
 - The colon (:) tells React Router:
   👉 “This part of the URL is dynamic, not fixed text.
+
+  # redux store
+
+  import { configureStore } from '@reduxjs/toolkit';
+  import chatReducer from './chatSlice'; // 👈 you choose the name here as chatReducer
+
+export const store = configureStore({
+reducer: {
+chat: chatReducer, // 👈 key is 'chat', value is the reducer
+},
+});
+
+## export default chatSlice.reducer-> makes that reducer the default export of the file.
+
+## import chatReducer from './chatSlice'-> you can name it chatReducer, reducer, or anything else when importing.
+
+## chat: chatReducer -> instead of chat you can name it as your choice

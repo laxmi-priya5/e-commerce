@@ -6,6 +6,7 @@ import Cart from './Components/Cart.jsx'
 import { CartProvider } from './Context/cartContext.jsx'
 import { createBrowserRouter , RouterProvider} from 'react-router-dom'
 import Productpage from './Components/Productpage.jsx'
+import Wish from './Components/Wish'
 
 const appRouter = createBrowserRouter([
   {
@@ -16,6 +17,10 @@ const appRouter = createBrowserRouter([
   {
       path:'/cart',
       element:<Cart/>
+  },
+  {
+      path:'/wish',
+      element:<Wish/>
   },
   {
     path:'/product/:id',
@@ -29,5 +34,5 @@ createRoot(document.getElementById('root')).render(
     <CartProvider>
     <RouterProvider router={appRouter}/>
    </CartProvider> 
-  </StrictMode>,
+  </StrictMode>
 )
