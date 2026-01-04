@@ -4,8 +4,16 @@ const Catagory = ()=>{
     { name: "Fashion", icon: "👗" },
     { name: "Electronics", icon: "💻" },
     { name: "Appliances", icon: "🔌" },
-    { name: "Home", icon: "🏠" },
-  
+    { name: "Home decoration", icon: "🏠" },
+    { name: "Gifts", icon: "🎁" },
+    { name: "Coats", icon: "👔" },
+    { name: "Saree", icon: "🥻" },
+    { name: "Backpack", icon: "🎒" },
+    { name: "Ice skate", icon: "⛸️" },
+    { name: "Running shoe", icon: "👟" },
+
+    { name: "Woman's sandal", icon: "👡" },
+    { name: "Hand bag", icon: "👜" },
     { name: "Beauty", icon: "💄" },
 
     { name: "Toys", icon: "🧸" },
@@ -28,7 +36,7 @@ const Catagory = ()=>{
   ];
 
   return(
-   <div className="w-full bg-white p-4 flex  gap-10 overflow-x-auto">
+   <div className="w-full bg-white p-4 flex  gap-10 overflow-x-auto ">
       {catagories.map((catagory , index )=> 
       (
         <div key={index} >

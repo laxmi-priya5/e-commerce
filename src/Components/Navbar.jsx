@@ -9,9 +9,9 @@ const Navbar = ()=>{
     const wish = useSelector((store)=>store.wish.item);
     return(
     
-        <div className="w-full bg-blue-600 flex item-center p-3 gap-4">
-        <h1 className="text-white font-bold">Flipkart</h1>
-        <input type="text" placeholder="search..."  className="flex-1 p-2 rounded outline-none"/>
+        <div className="w-full bg-blue-600 flex item-center p-3 justify-between">
+        <h1 className="text-white font-bold">E‑Commerce Bazaar</h1>
+        
 
         {/* <button>cart-{`${cart.length} items`}</button> */}
          <div className='flex gap-5'>

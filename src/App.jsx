@@ -5,8 +5,9 @@ import './App.css'
 import Navbar from './Components/Navbar'
 import Catagory from './Components/Catagory'
 import Product from './Components/Product'
-import { Store } from './utils/store'
+import { Store } from './utils/Store'
 import {Provider} from 'react-redux'
+import Footer from './Components/Footer'
 
 function App() {
 
@@ -18,7 +19,9 @@ function App() {
        <Navbar/>
        <Catagory/>
        <Product/>
+       <Footer/>
       </Provider>
+      
     
     </>
   )

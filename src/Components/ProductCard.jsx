@@ -31,7 +31,7 @@ const ProductCard = ({product})=>{
            <img src={product.images[0]}className='w-full h-40 object-contain rounded '/>
            <h2 className='font-semibold text-gray-800 mt-3 text-lg truncate'>{product.title}</h2>
             </Link>
-           <p className='mt-1 font-bold text-blue-600 text-md'>{product.price}</p>
+           <p className='mt-1 font-bold text-blue-600 text-md'>{product.price}$</p>
            <div className='relative'>
            <button className='rounded  px-3 py-1 bg-blue-600 text-white hover:bg-blue-700 font-bold cursor-pointer' onClick={()=>addToCart(product)}>Add to Cart</button>
            <button className='absolute right-1 text-2xl' onClick={toggle}>{like ?'🩷': '🩵'}</button>
