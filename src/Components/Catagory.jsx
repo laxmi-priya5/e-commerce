@@ -36,7 +36,7 @@ const Catagory = ()=>{
   ];
 
   return(
-   <div className="w-full bg-white p-4 flex  gap-10 overflow-x-auto ">
+   <div className="w-full bg-white p-4 flex  gap-10 overflow-x-scroll no-scrollbar ">
       {catagories.map((catagory , index )=> 
       (
         <div key={index} >
